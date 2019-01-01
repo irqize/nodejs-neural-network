@@ -1,0 +1,15 @@
+{
+  "name": "node-neural-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "author": "irqize",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security"
+  }
+}
