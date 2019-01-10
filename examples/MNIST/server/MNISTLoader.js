@@ -1,3 +1,4 @@
+//Library which loads files to js arrays
 const fs = require('fs');
 
 const IMAGES = [
@@ -47,7 +48,7 @@ async function loadImages(fileName){
     while(index < fileBuffer.length){
         let pixels = [];
         for(let i = 0; i < IMAGE_SIZE; i++){
-            pixels.push(fileBuffer.readUInt8(index) / 255); //grayscale from 0 to 1
+            pixels.push(fileBuffer.readUInt8(index))
             index++;
         }
         images.push(pixels);
@@ -78,7 +79,4 @@ async function loadLabels(fileName){
 
     return labels;
 }
-
-MNISTLoader(()=>{})
-
 module.exports = MNISTLoader;
