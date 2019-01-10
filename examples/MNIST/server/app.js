@@ -11,7 +11,7 @@ let router = express.Router();
 let MNISTLoader = require('./MNISTLoader');
 let NN = require('../../../lib/index');
 
-let trainingBatch = 10000;
+let trainingBatch = 60000;
 
 n = new NN(784, 256, 10);
 

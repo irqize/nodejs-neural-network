@@ -70,4 +70,4 @@ Network achieves around 87% of accuracy on test data.
 TODOS:
 - Add more activation functions
 - Add more examples
-- Improve drawing at MNIST example
+- Add GUI to MNIST example, improve canvas content prediction accuracy
